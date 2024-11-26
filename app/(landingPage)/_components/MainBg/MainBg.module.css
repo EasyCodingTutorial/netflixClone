@@ -1,0 +1,75 @@
+.MainBg {
+
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ParentImgTag {
+    background: #000;
+    border-radius: 20px;
+}
+
+.MainBg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    border: 5px solid #fff;
+    opacity: 0.5;
+
+}
+
+.Content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Content h6 {
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.Content p {
+    font-weight: 700;
+}
+
+/* For Subscribe */
+.Subscribe {
+    text-align: center;
+    margin-block: 20px;
+}
+
+.Subscribe h5 {
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.Subscribe div input {
+    padding: 12px 24px;
+    width: 300px;
+    border-radius: 999px;
+    background: none;
+    border-radius: 999px;
+    outline: none;
+    border: 0.4px solid #ccc;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.Subscribe div button {
+    width: max-content;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background: var(--main);
+    border-radius: 999px;
+    cursor: pointer;
+}

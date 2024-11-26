@@ -1,0 +1,21 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.Navbar img {
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+}
+
+.Navbar .Btn {
+    width: max-content;
+    background: #fff;
+    color: #000;
+    padding: 8px 22px;
+    border-radius: 999px;
+    font-weight: 700;
+}

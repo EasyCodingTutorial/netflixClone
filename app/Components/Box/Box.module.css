@@ -1,0 +1,93 @@
+.Box {
+    width: calc(100% / 6 - 20px);
+    height: 400px;
+    overflow: hidden;
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Box .ParentImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.1s ease-in-out;
+}
+
+.Box .ParentImg:hover {
+    transform: scale(1.01);
+}
+
+
+/* For Modal Background */
+.Modal {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+}
+
+/* For Modal Content */
+.ModalContent {
+    background: #000;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 700px;
+    overflow: hidden;
+    border: 3px solid #8d8787;
+    position: relative;
+}
+
+.ModalContent img {
+    width: 100%;
+    height: auto;
+
+    z-index: 1;
+}
+
+.Contents {
+    z-index: 2;
+    padding: 20px;
+}
+
+.Contents h6 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.Contents h5 {
+    font-size: 17px;
+    margin-block: 10px;
+    color: #ccc;
+}
+
+.Contents .Desc {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.Contents button {
+    width: max-content;
+    background: var(--main);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 22px;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.Contents .CustomText {
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 10px;
+}
