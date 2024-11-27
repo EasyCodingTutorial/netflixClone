@@ -1,5 +1,6 @@
- # Netflix Clone  
-![Netflix Clone](https://github.com/user-attachments/assets/placeholder-image.png)
+ # Netflix Clone
+ ![netflix clone from scratch](https://github.com/user-attachments/assets/77f20d16-26f3-4f98-8201-25667d043b4b)
+
 
 ## Overview  
 The **Netflix Clone** is a visually appealing landing page and authentication UI inspired by Netflix. Built using **Next.js** and **TypeScript**, this project demonstrates a clean and modern design for streaming platforms.  
