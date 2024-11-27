@@ -20,7 +20,7 @@ This repository is ideal for developers looking to learn and experiment with bui
   - **Sign-In Page**: A clean and intuitive sign-in form for existing users.  
 
 ## 📌 In This Project:  
-- Creating a responsive landing page with dynamic layouts.  
+- Creating a landing page with dynamic layouts.  
 - Building reusable and styled components with **CSS Modules**.  
 - Designing intuitive forms for user sign-up and sign-in.  
 - Writing clean, maintainable code with **TypeScript** best practices.  
