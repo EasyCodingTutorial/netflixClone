@@ -5,7 +5,6 @@
     box-shadow: var(--boxShadow);
     border-radius: 10px;
     cursor: pointer;
-    position: relative;
 }
 
 .Box .ParentImg {
@@ -23,7 +22,7 @@
 /* For Modal Background */
 .Modal {
     position: fixed;
-    top: 30%;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;

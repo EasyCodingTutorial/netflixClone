@@ -26,23 +26,6 @@ export const Box = (
     const closeModal = () => setIsModalOpen(false);
 
 
-    useEffect(() => {
-
-        if (isModalOpen) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto';
-        }
-
-        // Clean up the Style on component unmount or when modal is closed
-        return () => {
-            document.body.style.overflow = 'auto'
-        }
-
-
-
-    }, [isModalOpen])
-
     return (
         <div className={styles.Box}>
             <img src={ImgUrl} className={styles.ParentImg} alt="" onClick={openModal} />
