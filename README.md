@@ -71,4 +71,4 @@ Contributions are welcome! If you want to help improve the design or add functio
 
 
 ## Learn By Watching Video ▶️
-[![Watch Demo Video](https://img.youtube.com/vi/2tZL7bgK9uk/maxresdefault.jpg)](https://www.youtube.com/watch?v=2tZL7bgK9uk)
+[![Watch Demo Video](https://img.youtube.com/vi/78GOTBhmdE0/maxresdefault.jpg)](https://www.youtube.com/watch?v=78GOTBhmdE0)
